@@ -21,6 +21,8 @@ html
     link(href='stylesheets/owl.carousel.css', rel='stylesheet')
     link(rel='stylesheet', href='stylesheets/team.css', type='text/css', media='all')
     link(href='stylesheets/style.css', rel='stylesheet', type='text/css', media='all')
+    link(rel='stylesheet', href='stylesheets/popupS.min.css')
+    script(src="javascripts/popupS.min.js")
     // font-awesome-icons
     link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.5.0/css/all.css', integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', crossorigin='anonymous')
     link(href='stylesheets/font-awesome.css', rel='stylesheet')
@@ -382,6 +384,16 @@ html
               li
                 a(href='https://goo.gl/maps/SUCG3GESbZP2',target='_blank')
                   i.fa.fa-map
+              li
+                script.
+                    function popup() {
+                        popupS.confirm({
+                            content: '50609715',
+                        });
+                    }
+                td
+                a(href='#',onclick='popup()')
+                  i.fa.fa-phone
           .clearfix
         .clearfix
         p.agileits_w3ls_copyright
