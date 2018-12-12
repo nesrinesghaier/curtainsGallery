@@ -1656,7 +1656,7 @@ p.agileits_w3ls_copyright a:hover {
     }
     /*here*/
     img {
-        max-width: 100%;
+        max-width: 90%;
         max-height: 220px;
     }
 }
@@ -1683,6 +1683,10 @@ p.agileits_w3ls_copyright a:hover {
         margin: 0.5em 0em 0;
         right: 2%;
     }
+    img {
+        max-width: 95%;
+        max-height: 200px;
+    }
 }
 
 @media(max-width:375px) {
@@ -1705,11 +1709,19 @@ p.agileits_w3ls_copyright a:hover {
     .agile_wthree_inner_grids {
         margin-top: 1.5em;
     }
+    img {
+        max-width: 90%;
+        max-height: 190px;
+    }
 }
 
 @media(max-width:320px) {
     .agile_banner_text_info h1 {
         font-size: 1.9em;
+    }
+    img {
+        max-width: 90%;
+        max-height: 180px;
     }
 }
 
