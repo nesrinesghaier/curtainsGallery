@@ -12,7 +12,7 @@
     "express": "^4.16.4",
     "http-errors": "^1.7.1",
     "morgan": "^1.9.1",
-    "nodemailer": "^4.7.0",
+    "nodemailer": "^6.4.16",
     "popup": "0.0.3",
     "pug": "^2.0.3"
   }
